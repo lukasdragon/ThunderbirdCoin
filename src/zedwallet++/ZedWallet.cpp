@@ -115,7 +115,7 @@ int main(int argc, char **argv)
 
         if (quit)
         {
-            std::cout << "Thanks for stopping by..." << std::endl;
+            std::cout << "Have a good time!" << std::endl;
             return 0;
         }
 
@@ -164,5 +164,5 @@ int main(int argc, char **argv)
         cleanup(txMonitorThread, ctrlCWatcher, stop, txMonitor);
     }
 
-    std::cout << "Thanks for stopping by..." << std::endl;
+    std::cout << "Have a good time!" << std::endl;
 }

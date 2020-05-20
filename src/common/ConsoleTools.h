@@ -22,6 +22,7 @@ namespace Common
             White,
             Cyan,
             Magenta,
+            Orange,
 
             BrightBlue,
             BrightGreen,

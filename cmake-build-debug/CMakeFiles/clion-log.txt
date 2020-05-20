@@ -1,0 +1,22 @@
+"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\lukas\projects\ThunderbirdCoin
+CMake Warning (dev) at CMakeLists.txt:16 (set):
+  implicitly converting 'TYPE' to 'STRING' type.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Building for target architecture: native
+-- FORCE_USE_HEAP: ENABLED
+-- HW AES: ENABLED
+-- OPTIMIZED_ARM_MULTIPLICATION: ENABLED
+-- Found Git: C:/Program Files/Git/cmd/git.exe
+CMake Error at C:/Program Files/JetBrains/CLion 2020.1.1/bin/cmake/win/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:146 (message):
+  Could NOT find Boost (missing: system thread date_time chrono
+  serialization) (found version "1.69.0")
+Call Stack (most recent call first):
+  C:/Program Files/JetBrains/CLion 2020.1.1/bin/cmake/win/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:393 (_FPHSA_FAILURE_MESSAGE)
+  C:/Program Files/JetBrains/CLion 2020.1.1/bin/cmake/win/share/cmake-3.16/Modules/FindBoost.cmake:2179 (find_package_handle_standard_args)
+  CMakeLists.txt:252 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/lukas/projects/ThunderbirdCoin/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/lukas/projects/ThunderbirdCoin/cmake-build-debug/CMakeFiles/CMakeError.log".

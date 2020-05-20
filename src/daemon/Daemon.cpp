@@ -104,7 +104,7 @@ int main(int argc, char *argv[])
     // Initial loading of CLI parameters
     handleSettings(argc, argv, config);
 
-    if (config.printGenesisTx) // Do we weant to generate the Genesis Tx?
+    if (config.printGenesisTx) // Do we want to generate the Genesis Tx?
     {
         print_genesis_tx_hex(false, logManager);
         exit(0);
@@ -278,7 +278,7 @@ int main(int argc, char *argv[])
             logger(oldLogLevel, logColour) << message;
         });
 
-        logger(INFO, BRIGHT_GREEN) << getProjectCLIHeader() << std::endl;
+        logger(INFO, YELLOW) << getProjectCLIHeader() << std::endl;
 
         logger(INFO) << "Program Working Directory: " << cwdPath;
 
