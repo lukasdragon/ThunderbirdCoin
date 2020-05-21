@@ -14,16 +14,11 @@ We are a community of people across the world giving our time to make this softw
 
 For anyone else wishing to help the community or who needs answers to questions not covered in this document, join us in our [Discord Chat](https://discord.gg/uzuvPp3) here.
 
-### Thunderbird Coin Build Branches
-
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/lukasdragon/ThunderbirdCoin/Build/master) **Master**
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/lukasdragon/ThunderbirdCoin/Build/development) **Development**
-
 ### Installing Thunderbird Coin
 
 To use Thunderbird Coin, you'll need a way to connect to the network, and a wallet to hold your funds. This software includes those things for you, you can compile it yourself, or you can download the ones that we have compiled for you.
 
-**Click here to download: http://latest.ThunderbirdCoin.lol**
+**Click here to download: https://github.com/lukasdragon/ThunderbirdCoin/releases**
 
 To compile from sourcecode yourself, [click here for build instructions](https://github.com/lukasdragon/ThunderbirdCoin/blob/development/COMPILE.md).
 
@@ -45,4 +40,4 @@ See [src/config/CryptoNoteConfig.h](https://github.com/lukasdragon/ThunderbirdCo
 
 ### Contributing Projects
 
-[![cryptonote](https://user-images.githubusercontent.com/34389545/72484723-d84bf700-37ca-11ea-812e-e24cd7bf9fca.png)](https://cryptonote.org/)[![bytecoin](https://user-images.githubusercontent.com/34389545/72484467-ef3e1980-37c9-11ea-903d-3d1266e9c4c2.png)](https://bytecoin.org/)[![monero](https://user-images.githubusercontent.com/34389545/72484448-e0576700-37c9-11ea-934a-15a7d9231709.png)](https://web.getmonero.org/)[![forknote](https://user-images.githubusercontent.com/34389545/72484430-d59cd200-37c9-11ea-8529-e06ae2426dca.png)](http://forknote.net/)[![TurtleCoin](https://user-images.githubusercontent.com/34389545/72484404-c0c03e80-37c9-11ea-8754-0b5a8e797965.png)](https://TurtleCoin.lol![PalladiumCoin](https://avatars1.githubusercontent.com/u/28665230?s=200&v=4)](https://palladiumco1n.github.io/))
+[![cryptonote](https://user-images.githubusercontent.com/34389545/72484723-d84bf700-37ca-11ea-812e-e24cd7bf9fca.png)](https://cryptonote.org/)[![bytecoin](https://user-images.githubusercontent.com/34389545/72484467-ef3e1980-37c9-11ea-903d-3d1266e9c4c2.png)](https://bytecoin.org/)[![monero](https://user-images.githubusercontent.com/34389545/72484448-e0576700-37c9-11ea-934a-15a7d9231709.png)](https://web.getmonero.org/)[![forknote](https://user-images.githubusercontent.com/34389545/72484430-d59cd200-37c9-11ea-8529-e06ae2426dca.png)](http://forknote.net/)[![TurtleCoin](https://user-images.githubusercontent.com/34389545/72484404-c0c03e80-37c9-11ea-8754-0b5a8e797965.png)](https://TurtleCoin.lol)[![PalladiumCoin](https://avatars1.githubusercontent.com/u/28665230?s=200&v=4)](https://palladiumco1n.github.io/))
