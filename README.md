@@ -20,7 +20,7 @@ To use Thunderbird Coin, you'll need a way to connect to the network, and a wall
 
 **Click here to download: https://github.com/lukasdragon/ThunderbirdCoin/releases**
 
-To compile from sourcecode yourself, [click here for build instructions](https://github.com/lukasdragon/ThunderbirdCoin/blob/development/COMPILE.md).
+To compile from sourcecode yourself, [click here for build instructions](https://github.com/lukasdragon/ThunderbirdCoin/blob/master/COMPILE.md).
 
 ### A note for contributing developers
 
