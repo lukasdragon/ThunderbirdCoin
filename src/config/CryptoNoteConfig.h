@@ -367,6 +367,6 @@ namespace CryptoNote
 
     const char *const SEED_NODES[] = {
         "159.89.124.76:16004", // rock
-        "159.89.124.76:16003",
+        "64.227.110.181:16004"
     };
 } // namespace CryptoNote
