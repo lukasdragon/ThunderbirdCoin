@@ -41,7 +41,7 @@ namespace CryptoNote
         const size_t BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW_V3 = 11;
 
         // MONEY_SUPPLY - total number coins to be generated
-        const uint64_t MONEY_SUPPLY = UINT64_C(11000000000);
+        const uint64_t MONEY_SUPPLY = UINT64_C(11000000.000);
 
         const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX = 0;
 
@@ -68,7 +68,7 @@ namespace CryptoNote
         /* This is the unix timestamp of the first "mined" block (technically block 2, not the genesis block)
            You can get this value by doing "print_block 2" in ThunderbirdCoind. It is used to know what timestamp
            to import from when the block height cannot be found in the node or the node is offline. */
-        const uint64_t GENESIS_BLOCK_TIMESTAMP = 1512800692;
+        const uint64_t GENESIS_BLOCK_TIMESTAMP = 1590109110;
 
         const size_t CRYPTONOTE_REWARD_BLOCKS_WINDOW = 100;
 
@@ -85,7 +85,7 @@ namespace CryptoNote
         const size_t CRYPTONOTE_DISPLAY_DECIMAL_POINT = 3;
 
         /* TODO: Remove? */
-        const uint64_t MINIMUM_FEE = UINT64_C(500);
+        const uint64_t MINIMUM_FEE = UINT64_C(250);
 
         /* Fee per byte is rounded up in chunks. This helps makes estimates
          * more accurate. It's suggested to make this a power of two, to relate
@@ -100,16 +100,16 @@ namespace CryptoNote
         const double MINIMUM_FEE_PER_BYTE_V1 = 1996.80 / FEE_PER_BYTE_CHUNK_SIZE;
         
         /* Height for our first fee to byte change to take effect. */
-        const uint64_t MINIMUM_FEE_PER_BYTE_V1_HEIGHT = 8;
+        const uint64_t MINIMUM_FEE_PER_BYTE_V1_HEIGHT = 1;
 
         /* This section defines our minimum and maximum mixin counts required for transactions */
         const uint64_t MINIMUM_MIXIN_V1 = 0;
 
-        const uint64_t MAXIMUM_MIXIN_V1 = 3;
+        const uint64_t MAXIMUM_MIXIN_V1 = 0;
 
-        const uint64_t MINIMUM_MIXIN_V2 = 3;
+        const uint64_t MINIMUM_MIXIN_V2 = 1;
 
-        const uint64_t MAXIMUM_MIXIN_V2 = 3;
+        const uint64_t MAXIMUM_MIXIN_V2 = 1;
 
         const uint64_t MINIMUM_MIXIN_V3 = 5;
 
@@ -120,7 +120,7 @@ namespace CryptoNote
 
         const uint32_t MIXIN_LIMITS_V2_HEIGHT = 1;
 
-        const uint32_t MIXIN_LIMITS_V3_HEIGHT = 1680;
+        const uint32_t MIXIN_LIMITS_V3_HEIGHT = 2;
 
         /* The mixin to use by default with zedwallet and turtle-service */
         /* DEFAULT_MIXIN_V0 is the mixin used before MIXIN_LIMITS_V1_HEIGHT is started */
@@ -138,7 +138,7 @@ namespace CryptoNote
 
         const uint32_t DUST_THRESHOLD_V2_HEIGHT = MIXIN_LIMITS_V2_HEIGHT;
 
-        const uint32_t FUSION_DUST_THRESHOLD_HEIGHT_V2 = 1681;
+        const uint32_t FUSION_DUST_THRESHOLD_HEIGHT_V2 = 2;
 
         const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY = 24 * 60 * 60 / DIFFICULTY_TARGET;
 
@@ -176,12 +176,12 @@ namespace CryptoNote
 
         const uint64_t MAX_EXTRA_SIZE_V2_HEIGHT = 1300000;
 
-        /* 25 trillion atomic, or 250 billion TRTL -> Max supply / mixin+1 outputs */
+        /* 25 trillion atomic, or 250 000 00 TBC -> Max supply / mixin+1 outputs */
         /* This is enforced on the daemon side. An output > 250 billion causes
          * an invalid block. */
         const uint64_t MAX_OUTPUT_SIZE_NODE   = 250'000'000'000'00;
 
-        /* 100 billion atomic, or 1 billion TRTL */
+        /* 100 billion atomic, or 1 billion TBC */
         /* This is enforced on the client side. An output > 1 billion will not
          * be created in a transaction */
         const uint64_t MAX_OUTPUT_SIZE_CLIENT = 1'000'000'000'00;
@@ -366,7 +366,7 @@ namespace CryptoNote
         {0x35, 0x73, 0xf0, 0x91, 0xec, 0xd6, 0x78, 0x35, 0xc2, 0x74, 0x3e, 0x7f, 0x8d, 0x60, 0x4c, 0xf7}};
 
     const char *const SEED_NODES[] = {
-        "159.89.124.76:16004", // rock
-        "64.227.110.181:16004"
+    //    "159.89.124.76:16004", // rock
+    //    "64.227.110.181:16004"
     };
 } // namespace CryptoNote
